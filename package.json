@@ -1,0 +1,27 @@
+{
+  "name": "ts-babel-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "tsc -noEmit && babel src -x .ts --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttk1/ts-babel-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttk1/ts-babel-practice/issues"
+  },
+  "homepage": "https://github.com/ttk1/ts-babel-practice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
